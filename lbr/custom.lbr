@@ -80,10 +80,10 @@
 <wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.1" layer="51"/>
 <wire x1="1" y1="-0.625" x2="1" y2="0.625" width="0.1" layer="51"/>
 <wire x1="1" y1="0.625" x2="-1" y2="0.625" width="0.1" layer="51"/>
-<wire x1="-1.9" y1="0.9" x2="-1.9" y2="-0.9" width="0.05" layer="39"/>
-<wire x1="-1.9" y1="-0.9" x2="1.9" y2="-0.9" width="0.05" layer="39"/>
-<wire x1="1.9" y1="-0.9" x2="1.9" y2="0.9" width="0.05" layer="39"/>
-<wire x1="1.9" y1="0.9" x2="-1.9" y2="0.9" width="0.05" layer="39"/>
+<wire x1="-2.4" y1="1.4" x2="-2.4" y2="-1.4" width="0.05" layer="39"/>
+<wire x1="-2.4" y1="-1.4" x2="2.4" y2="-1.4" width="0.05" layer="39"/>
+<wire x1="2.4" y1="-1.4" x2="2.4" y2="1.4" width="0.05" layer="39"/>
+<wire x1="2.4" y1="1.4" x2="-2.4" y2="1.4" width="0.05" layer="39"/>
 <text x="-2" y="1" size="0.9" layer="25" font="vector">&gt;Name</text>
 <text x="-2" y="-2" size="0.9" layer="27" font="vector">&gt;Value</text>
 <wire x1="-1" y1="0.625" x2="-1" y2="-0.625" width="0.05" layer="21"/>
@@ -91,7 +91,7 @@
 <wire x1="1" y1="-0.625" x2="1" y2="0.625" width="0.05" layer="21"/>
 <wire x1="1" y1="0.625" x2="-1" y2="0.625" width="0.05" layer="21"/>
 </package>
-<package name="LED-RED-160-1178-1-ND">
+<package name="LED-160-1178-1-ND">
 <description>Chip LED, 2.00 X 1.25 X 1.10 mm body
  &lt;p&gt;Chip LED package with body size 2.00 X 1.25 X 1.10 mm&lt;/p&gt;</description>
 <smd name="A" x="-1.05" y="0" dx="1.2" dy="1.2" layer="1"/>
@@ -103,10 +103,10 @@
 <text x="0" y="1.549" size="0.9" layer="25" font="vector" align="bottom-center">&gt;Name</text>
 <text x="0" y="-1.549" size="0.9" layer="27" font="vector" align="top-center">&gt;Value</text>
 <circle x="-2.21903125" y="0.74868125" radius="0.11008125" width="0.25" layer="21"/>
-<wire x1="-1.9" y1="0.9" x2="1.9" y2="0.9" width="0.05" layer="39"/>
-<wire x1="1.9" y1="0.9" x2="1.9" y2="-0.9" width="0.05" layer="39"/>
-<wire x1="1.9" y1="-0.9" x2="-1.9" y2="-0.9" width="0.05" layer="39"/>
-<wire x1="-1.9" y1="-0.9" x2="-1.9" y2="0.9" width="0.05" layer="39"/>
+<wire x1="-2.4" y1="1.4" x2="2.4" y2="1.4" width="0.05" layer="39"/>
+<wire x1="2.4" y1="1.4" x2="2.4" y2="-1.4" width="0.05" layer="39"/>
+<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.05" layer="39"/>
+<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.4" width="0.05" layer="39"/>
 </package>
 <package name="NMOSFET">
 <description>3-SOT23, 0.95 mm pitch, 2.37 mm span, 2.92 X 1.30 X 1.12 mm body
@@ -127,10 +127,10 @@
 <rectangle x1="0.623" y1="-0.2795" x2="1.346" y2="0.2795" layer="29"/>
 <rectangle x1="-1.346" y1="-1.2295" x2="-0.622" y2="-0.6705" layer="29"/>
 <rectangle x1="-1.346" y1="0.6705" x2="-0.622" y2="1.2295" layer="29"/>
-<wire x1="-2.4" y1="-1.9" x2="2.4" y2="-1.9" width="0.05" layer="39"/>
-<wire x1="2.4" y1="-1.9" x2="2.4" y2="1.9" width="0.05" layer="39"/>
-<wire x1="2.4" y1="1.9" x2="-2.4" y2="1.9" width="0.05" layer="39"/>
-<wire x1="-2.4" y1="1.9" x2="-2.4" y2="-1.9" width="0.05" layer="39"/>
+<wire x1="-2.9" y1="-2.4" x2="2.9" y2="-2.4" width="0.05" layer="39"/>
+<wire x1="2.9" y1="-2.4" x2="2.9" y2="2.4" width="0.05" layer="39"/>
+<wire x1="2.9" y1="2.4" x2="-2.9" y2="2.4" width="0.05" layer="39"/>
+<wire x1="-2.9" y1="2.4" x2="-2.9" y2="-2.4" width="0.05" layer="39"/>
 <rectangle x1="0.623" y1="-0.2795" x2="1.346" y2="0.2795" layer="31"/>
 <rectangle x1="-1.346" y1="0.6705" x2="-0.622" y2="1.2295" layer="31"/>
 <rectangle x1="-1.346" y1="-1.2295" x2="-0.622" y2="-0.6705" layer="31"/>
@@ -156,10 +156,10 @@
 <wire x1="1.5" y1="1.25" x2="-1.5" y2="1.25" width="0.127" layer="21"/>
 <circle x="-1.937" y="1.032" radius="0.088640625" width="0.2" layer="21"/>
 <text x="-2" y="1.5" size="0.9" layer="25" font="vector">&gt;Name</text>
-<wire x1="-1.9" y1="1.4" x2="-1.9" y2="-1.4" width="0.05" layer="39"/>
-<wire x1="-1.9" y1="-1.4" x2="1.9" y2="-1.4" width="0.05" layer="39"/>
-<wire x1="1.9" y1="-1.4" x2="1.9" y2="1.4" width="0.05" layer="39"/>
-<wire x1="1.9" y1="1.4" x2="-1.9" y2="1.4" width="0.05" layer="39"/>
+<wire x1="-2.4" y1="1.9" x2="-2.4" y2="-1.9" width="0.05" layer="39"/>
+<wire x1="-2.4" y1="-1.9" x2="2.4" y2="-1.9" width="0.05" layer="39"/>
+<wire x1="2.4" y1="-1.9" x2="2.4" y2="1.9" width="0.05" layer="39"/>
+<wire x1="2.4" y1="1.9" x2="-2.4" y2="1.9" width="0.05" layer="39"/>
 <rectangle x1="-0.8" y1="-0.6" x2="0.8" y2="0.6" layer="41"/>
 <rectangle x1="-1.9" y1="-1.4" x2="1.9" y2="1.4" layer="42"/>
 <rectangle x1="-1.9" y1="-1.4" x2="1.9" y2="1.4" layer="43"/>
@@ -201,7 +201,7 @@
 <wire x1="2.5779375" y1="3.891246875" x2="2.5779375" y2="3.03755625" width="0.1524" layer="94"/>
 <wire x1="2.5779375" y1="3.891246875" x2="1.70540625" y2="3.891246875" width="0.1524" layer="94"/>
 <text x="-4.064" y="4.064" size="1.778" layer="95">&gt;Name</text>
-<text x="-4.064" y="-4.572" size="1.778" layer="96">&gt;Value</text>
+<text x="-3.81" y="-4.572" size="1.778" layer="96">&gt;Value</text>
 </symbol>
 <symbol name="NMOSFET">
 <pin name="D" x="0" y="5.08" length="point" direction="in" rot="R270"/>
@@ -227,7 +227,6 @@
 <pin name="INT2" x="-17.78" y="-2.54" length="short"/>
 <pin name="OCS_AUX" x="-17.78" y="-5.08" length="short"/>
 <pin name="GND1" x="-17.78" y="-7.62" length="short"/>
-<pin name="GND2" x="-17.78" y="-10.16" length="short"/>
 <pin name="SDO/SA0" x="17.78" y="5.08" length="short" rot="R180"/>
 <pin name="SDX" x="17.78" y="2.54" length="short" rot="R180"/>
 <pin name="SCX" x="17.78" y="0" length="short" rot="R180"/>
@@ -263,12 +262,12 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="LED" prefix="D">
+<deviceset name="LED" prefix="D" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="LED" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-RED-LED" package="LED-RED-160-1178-1-ND">
+<device name="-RED-LED" package="LED-160-1178-1-ND">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
@@ -283,7 +282,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="NMOSFET" prefix="Q">
+<deviceset name="NMOSFET" prefix="Q" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="NMOSFET" x="0" y="0"/>
 </gates>
@@ -304,7 +303,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="6-AXIS-IMU" prefix="U">
+<deviceset name="IMU-LSM6DSO" prefix="U">
 <gates>
 <gate name="G$1" symbol="LSM6DSO-IMU" x="0" y="0"/>
 </gates>
@@ -312,8 +311,7 @@
 <device name="-IMU-LSM6DSOXTR" package="IMU-LSM6DSO">
 <connects>
 <connect gate="G$1" pin="CS" pad="12"/>
-<connect gate="G$1" pin="GND1" pad="6"/>
-<connect gate="G$1" pin="GND2" pad="7"/>
+<connect gate="G$1" pin="GND1" pad="6 7"/>
 <connect gate="G$1" pin="INT1" pad="4"/>
 <connect gate="G$1" pin="INT2" pad="9"/>
 <connect gate="G$1" pin="OCS_AUX" pad="10"/>
